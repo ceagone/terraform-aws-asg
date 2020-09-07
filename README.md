@@ -12,7 +12,7 @@ module "asg" {
   
   version = "1.0.0"
   
-  ### insert the 6 required variables here
+  ### #insert the 6 required variables here
   
   desired_capacity = 1
   
