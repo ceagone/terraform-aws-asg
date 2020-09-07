@@ -11,10 +11,15 @@ module "asg" {
   version = "1.0.0"
   # insert the 6 required variables here
   desired_capacity = 1
+  
   image_owner = "137112412989"
+  
   key_name = "bola"
+  
   max_size = 1
+  
   min_size = 1
+  
   region = "us-west-2"
  
 }
